@@ -1,0 +1,35 @@
+
+
+#letgo
+    margin-left: 133px
+    border: none
+    font-size: 25px
+    cursor: pointer
+    border-radius: 10px
+    border: 1px solid #ffb433
+    max-width: 120px
+    text-align: center
+    margin: 0 auto
+    margin-bottom: 5px
+    &:active
+        background-color: #9c6308
+        color: white
+        user-select: none
+
+img
+    animation-name: renderAnimate
+    animation-duration: 0.3s
+    animation-timing-function: linear
+    animation-fill-mode: backwards
+    margin: 0 auto
+
+.center
+    max-width: 310px
+    margin: 0 auto
+    margin-top: 100px
+
+@keyframes renderAnimate
+    0%
+        filter: blur(50px)
+    100%
+        filter: blur(0px)

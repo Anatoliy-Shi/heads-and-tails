@@ -1,0 +1,56 @@
+#letgo {
+  margin-left: 133px;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: 1px solid #ffb433;
+  max-width: 120px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 5px;
+}
+#letgo:active {
+  background-color: #9c6308;
+  color: white;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+img {
+  -webkit-animation-name: renderAnimate;
+          animation-name: renderAnimate;
+  -webkit-animation-duration: 0.3s;
+          animation-duration: 0.3s;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+  -webkit-animation-fill-mode: backwards;
+          animation-fill-mode: backwards;
+  margin: 0 auto;
+}
+
+.center {
+  max-width: 310px;
+  margin: 0 auto;
+  margin-top: 100px;
+}
+
+@-webkit-keyframes renderAnimate {
+  0% {
+    filter: blur(50px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+@keyframes renderAnimate {
+  0% {
+    filter: blur(50px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}/*# sourceMappingURL=style.css.map */
